@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: mysql_connector
+Version: 0.0.1
+Summary: mysql library 1
+Author: Thara G
+Author-email: thara.gopinath@itilite.com
+Dynamic: author
+Dynamic: author-email
+Dynamic: summary

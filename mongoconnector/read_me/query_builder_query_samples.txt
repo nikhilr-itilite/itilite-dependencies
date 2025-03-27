@@ -1,0 +1,63 @@
+{
+    "query": {
+      "subquery": {
+        "q1": {
+          "AND": [
+            "data.cbn.ec.sp in 5656",
+            "destination != DEL HII"
+          ]
+        },
+        "q3": {
+          "AND": [
+            "data.ssp = 123",
+            "destination != DEL",
+            "data.leg.fgt.via in [1,2,34]",
+            "data.leg.fgt.via exists true",
+            "data.leg.fgt.via not_in [abc,2,cdf]",
+            "data.ssp > 8888",
+            "data.ssp < 98988",
+            "data.ssp >= 988",
+            "data.ssp <= 777"
+          ]
+        },
+        "q4": {
+          "or": [
+            "data.cbn.ec.fs = 123",
+            "destination != DEL HII",
+            "data.leg.fgt.via in [1,2,34]",
+            "data.leg.fgt.via exists true",
+            "data.leg.fgt.via not_in [1,2,34]"
+          ]
+        }
+      },
+      "compound_query": {
+        "and": [
+          "q1",
+          "q3",
+          "q4"
+        ]
+      },
+      "nested_exact_match": {
+        "match_field_path": "data.cbn.ec",
+        "condition": "q1"
+      }
+    },
+    "sort_by": {
+      "data.ssp": 1,
+      "data.cbn.ec.sp": -1,
+      "from_date": 1
+    },
+    "group": {
+      "group_by": "data.ssp",
+      "doc_response_fields": [
+        {
+          "field_path": "data.cbn.ec",
+          "return_obj_name": "return_obj",
+          "complete_obj": true
+        }
+      ]
+    },
+    "page_no": 1,
+    "page_size": 1
+
+}

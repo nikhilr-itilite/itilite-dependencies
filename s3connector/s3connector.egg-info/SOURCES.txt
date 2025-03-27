@@ -1,0 +1,7 @@
+setup.py
+s3connector/__init__.py
+s3connector/connector.py
+s3connector.egg-info/PKG-INFO
+s3connector.egg-info/SOURCES.txt
+s3connector.egg-info/dependency_links.txt
+s3connector.egg-info/top_level.txt

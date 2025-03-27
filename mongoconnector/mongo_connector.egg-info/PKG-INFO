@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: mongo_connector
+Version: 0.0.1
+Summary: Mongo Search library 1
+Author: Mamtha K
+Author-email: mamta.kumari@itilite.com
+License: ITILITE
+Requires-Dist: pymongo==4.7.2
+Requires-Dist: pydantic==1.10.11
+Dynamic: author
+Dynamic: author-email
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary

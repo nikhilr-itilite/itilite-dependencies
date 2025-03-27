@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: opensearchlogger
+Version: 0.0.1
+Summary: Logger library 1
+Author: Madhu
+Author-email: madhusudhan.padmanabhan@itilite.com
+License: ITILITE
+Requires-Dist: opensearch-py
+Requires-Dist: pydantic==1.10.11
+Dynamic: author
+Dynamic: author-email
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary

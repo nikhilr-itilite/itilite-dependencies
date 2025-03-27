@@ -1,0 +1,8 @@
+setup.py
+opensearch_connector.egg-info/PKG-INFO
+opensearch_connector.egg-info/SOURCES.txt
+opensearch_connector.egg-info/dependency_links.txt
+opensearch_connector.egg-info/requires.txt
+opensearch_connector.egg-info/top_level.txt
+opensearchconnector/__init__.py
+opensearchconnector/connector.py

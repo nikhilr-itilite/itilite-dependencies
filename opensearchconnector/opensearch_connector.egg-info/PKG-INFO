@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: opensearch_connector
+Version: 0.0.1
+Summary: Open Search library 1
+Author: Mamtha K
+Author-email: mamta.kumari@itilite.com
+Requires-Dist: opensearch-py
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
+Dynamic: summary

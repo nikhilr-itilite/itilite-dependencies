@@ -1,0 +1,11 @@
+setup.py
+mysql_connector.egg-info/PKG-INFO
+mysql_connector.egg-info/SOURCES.txt
+mysql_connector.egg-info/dependency_links.txt
+mysql_connector.egg-info/top_level.txt
+mysqlconnector/__init__.py
+mysqlconnector/api_base.py
+mysqlconnector/app_base.py
+mysqlconnector/connector.py
+mysqlconnector/log_base.py
+mysqlconnector/mysql_connector.py

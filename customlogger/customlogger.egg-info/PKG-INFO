@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: customlogger
+Version: 0.0.1
+Summary: Logger library 1
+Author: Mamtha K
+Author-email: mamta.kumari@itilite.com
+License: ITILITE
+Requires-Dist: opensearch-py
+Requires-Dist: pydantic
+Dynamic: author
+Dynamic: author-email
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary

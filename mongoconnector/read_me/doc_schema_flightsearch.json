@@ -1,0 +1,299 @@
+{
+  "_id": {
+    "name": "_id",
+    "type": "str",
+    "parent_path": null,
+    "this_property_path": "_id"
+  },
+  "data": {
+    "name": "data",
+    "type": "nested",
+    "parent_path": null,
+    "this_property_path": "data"
+  },
+  "destination": {
+    "name": "destination",
+    "type": "str",
+    "parent_path": null,
+    "this_property_path": "destination"
+  },
+  "from_date": {
+    "name": "from_date",
+    "type": "datetime",
+    "datetime_format": "yyyy-mm-dd HH:mm:ss",
+    "parent_path": null,
+    "this_property_path": "from_date"
+  },
+  "origin": {
+    "name": "origin",
+    "type": "str",
+    "parent_path": null,
+    "this_property_path": "origin"
+  },
+  "return_date": {
+    "name": "return_date",
+    "type": "str",
+    "parent_path": null,
+    "this_property_path": "return_date"
+  },
+  "type": {
+    "name": "type",
+    "type": "int",
+    "parent_path": null,
+    "this_property_path": "type"
+  },
+  "data.cbn": {
+    "name": "cbn",
+    "type": "object",
+    "parent_path": "data",
+    "this_property_path": "data.cbn"
+  },
+  "data.leg": {
+    "name": "leg",
+    "type": "nested",
+    "parent_path": "data",
+    "this_property_path": "data.leg"
+  },
+  "data.td": {
+    "name": "td",
+    "type": "int",
+    "parent_path": "data",
+    "this_property_path": "data.td"
+  },
+  "data.tl": {
+    "name": "tl",
+    "type": "int",
+    "parent_path": "data",
+    "this_property_path": "data.tl"
+  },
+  "data.mv_hash": {
+    "name": "mv_hash",
+    "type": "UUID",
+    "parent_path": "data",
+    "this_property_path": "data.mv_hash"
+  },
+  "data.cs_hash": {
+    "name": "cs_hash",
+    "type": "UUID",
+    "parent_path": "data",
+    "this_property_path": "data.cs_hash"
+  },
+  "data.is_con_ven": {
+    "name": "is_con_ven",
+    "type": "int",
+    "parent_path": "data",
+    "this_property_path": "data.is_con_ven"
+  },
+  "data.rbt_sd_cbn": {
+    "name": "rbt_sd_cbn",
+    "type": "str",
+    "parent_path": "data",
+    "this_property_path": "data.rbt_sd_cbn"
+  },
+  "data.ssp": {
+    "name": "ssp",
+    "type": "int",
+    "parent_path": "data",
+    "this_property_path": "data.ssp"
+  },
+  "data.uid": {
+    "name": "uid",
+    "type": "UUID",
+    "parent_path": "data",
+    "this_property_path": "data.uid"
+  },
+  "data.is_cs_rmd": {
+    "name": "is_cs_rmd",
+    "type": "int",
+    "parent_path": "data",
+    "this_property_path": "data.is_cs_rmd"
+  },
+  "data.maf": {
+    "name": "maf",
+    "type": "int",
+    "parent_path": "data",
+    "this_property_path": "data.maf"
+  },
+  "data.fd": {
+    "name": "fd",
+    "type": "int",
+    "parent_path": "data",
+    "this_property_path": "data.fd"
+  },
+  "data.leg.rfn": {
+    "name": "rfn",
+    "type": "int",
+    "parent_path": "data.leg",
+    "this_property_path": "data.leg.rfn"
+  },
+  "data.leg.sd": {
+    "name": "sd",
+    "type": "datetime",
+    "parent_path": "data.leg",
+    "this_property_path": "data.leg.sd"
+  },
+  "data.leg.td": {
+    "name": "td",
+    "type": "int",
+    "parent_path": "data.leg",
+    "this_property_path": "data.leg.td"
+  },
+  "data.leg.fgt": {
+    "name": "fgt",
+    "type": "nested",
+    "parent_path": "data.leg",
+    "this_property_path": "data.leg.fgt"
+  },
+  "data.leg.fgt.adt": {
+    "name": "adt",
+    "type": "datetime",
+    "parent_path": "data.leg.fgt",
+    "this_property_path": "data.leg.fgt.adt"
+  },
+  "data.leg.fgt.aid": {
+    "name": "aid",
+    "type": "int",
+    "parent_path": "data.leg.fgt",
+    "this_property_path": "data.leg.fgt.aid"
+  },
+  "data.leg.fgt.ci": {
+    "name": "ci",
+    "type": "str",
+    "parent_path": "data.leg.fgt",
+    "this_property_path": "data.leg.fgt.ci"
+  },
+  "data.leg.fgt.cid": {
+    "name": "cid",
+    "type": "str",
+    "parent_path": "data.leg.fgt",
+    "this_property_path": "data.leg.fgt.cid"
+  },
+  "data.leg.fgt.cn": {
+    "name": "cn",
+    "type": "str",
+    "parent_path": "data.leg.fgt",
+    "this_property_path": "data.leg.fgt.cn"
+  },
+  "data.leg.fgt.ddt": {
+    "name": "ddt",
+    "type": "datetime",
+    "datetime_format": "yyyy-mm-dd HH:mm:ss",
+    "parent_path": "data.leg.fgt",
+    "this_property_path": "data.leg.fgt.ddt"
+  },
+  "data.leg.fgt.dn": {
+    "name": "dn",
+    "type": "int",
+    "parent_path": "data.leg.fgt",
+    "this_property_path": "data.leg.fgt.dn"
+  },
+  "data.leg.fgt.dty": {
+    "name": "dty",
+    "type": "str",
+    "parent_path": "data.leg.fgt",
+    "this_property_path": "data.leg.fgt.dty"
+  },
+  "data.leg.fgt.ogn": {
+    "name": "ogn",
+    "type": "str",
+    "parent_path": "data.leg.fgt",
+    "this_property_path": "data.leg.fgt.ogn"
+  },
+  "data.leg.fgt.via": {
+    "name": "via",
+    "type": "array",
+    "sub_type": "str",
+    "parent_path": "data.leg.fgt",
+    "this_property_path": "data.leg.fgt.via"
+  },
+  "data.leg.ftr": {
+    "name": "ftr",
+    "type": "obj",
+    "parent_path": "data.leg",
+    "this_property_path": "data.leg.ftr"
+  },
+  "data.leg.ddt_t": {
+    "name": "ddt_t",
+    "type": "datetime",
+    "parent_path": "data.leg.ftr",
+    "this_property_path": "data.leg.ddt_t"
+  },
+  "data.leg.adt_t": {
+    "name": "adt_t",
+    "type": "datetime",
+    "parent_path": "data.leg.ftr",
+    "this_property_path": "data.leg.adt_t"
+  },
+  "data.leg.tag": {
+    "name": "tag",
+    "type": "obj",
+    "parent_path": "data.leg",
+    "this_property_path": "data.leg.tag"
+  },
+  "data.leg.tag.time": {
+    "name": "time",
+    "type": "str",
+    "parent_path": "data.leg.tag",
+    "this_property_path": "data.leg.tag.time"
+  },
+  "data.leg.tag.cls": {
+    "name": "cls",
+    "type": "str",
+    "parent_path": "data.leg.tag",
+    "this_property_path": "data.leg.tag.cls"
+  },
+  "data.leg.tag.hb": {
+    "name": "hb",
+    "type": "str",
+    "parent_path": "data.leg.tag",
+    "this_property_path": "data.leg.tag.hb"
+  },
+  "data.leg.tag.bge": {
+    "name": "bge",
+    "type": "str",
+    "parent_path": "data.leg.tag",
+    "this_property_path": "data.leg.tag.bge"
+  },
+  "data.cbn.ec": {
+    "name": "ec",
+    "type": "nested",
+    "parent_path": "data.cbn",
+    "this_property_path": "data.cbn.ec"
+  },
+  "data.cbn.ec.api": {
+    "name": "api",
+    "type": "str",
+    "parent_path": "data.cbn.ec",
+    "this_property_path": "data.cbn.ec.api"
+  },
+  "data.cbn.ec.bge": {
+    "name": "bge",
+    "type": "nested",
+    "parent_path": "data.cbn.ec",
+    "this_property_path": "data.cbn.ec.bge"
+  },
+  "data.cbn.ec.bge.chn": {
+    "name": "chn",
+    "type": "str",
+    "parent_path": "data.cbn.ec.bge",
+    "this_property_path": "data.cbn.ec.bge.chn"
+  },
+  "data.cbn.ec.bge.dty": {
+    "name": "dty",
+    "type": "str",
+    "parent_path": "data.cbn.ec.bge_ec.",
+    "this_property_path": "data.cbn.ec.bge.dty"
+  },
+  "data.cbn.ec.sp": {
+    "name": "sp",
+    "type": "int",
+    "parent_path": "data.cbn.ec",
+    "this_property_path": "data.cbn.ec.sp"
+  },
+  "data.cbn.ec.fs": {
+    "name": "fs",
+    "type": "str",
+    "parent_path": "data.cbn.ec",
+    "this_property_path": "data.cbn.ec.fs"
+  }
+}

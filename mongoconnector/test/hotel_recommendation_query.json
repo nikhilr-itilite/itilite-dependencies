@@ -1,0 +1,22 @@
+{
+  "query": {
+    "subquery": {
+      "q1": {
+        "AND": [
+          "nme = HOTEL GAURISHREE Bhopal",
+          "ignore = True",
+          "policy_ignore = True",
+          "rms.bf = True",
+          "rms.ib = True",
+          "rms.rft = True",
+          "rms.pc = True",
+          "rms.api = itilite",
+          "rms.tp >= 500"
+        ]
+      }
+    }
+  },
+  "sort_by": {
+    "score.score": 1
+  }
+}

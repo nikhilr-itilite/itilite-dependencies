@@ -1,0 +1,4 @@
+pymysql
+pymysql-pool
+mysql-connector-python
+pyaes

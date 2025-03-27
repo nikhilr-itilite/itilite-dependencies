@@ -1,0 +1,13 @@
+setup.py
+customlogger/__init__.py
+customlogger/constants.py
+customlogger/logger.py
+customlogger/loggermodel.py
+customlogger/opensearchlogger.py
+customlogger.egg-info/PKG-INFO
+customlogger.egg-info/SOURCES.txt
+customlogger.egg-info/dependency_links.txt
+customlogger.egg-info/requires.txt
+customlogger.egg-info/top_level.txt
+test/__init__.py
+test/test.py

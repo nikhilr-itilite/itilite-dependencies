@@ -1,0 +1,2 @@
+opensearch-py
+pydantic==1.10.11

@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: redisconnector
+Version: 0.0.1
+Summary: redis library 1
+Author: Rajeshwar Dhayalan
+Author-email: rajeshwar.dhayalan@itilite.com
+License: ITILITE
+Dynamic: author
+Dynamic: author-email
+Dynamic: license
+Dynamic: summary

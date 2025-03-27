@@ -1,0 +1,11 @@
+setup.py
+opensearchlogger/__init__.py
+opensearchlogger/handlers.py
+opensearchlogger/logging.py
+opensearchlogger/serializers.py
+opensearchlogger/version.py
+opensearchlogger.egg-info/PKG-INFO
+opensearchlogger.egg-info/SOURCES.txt
+opensearchlogger.egg-info/dependency_links.txt
+opensearchlogger.egg-info/requires.txt
+opensearchlogger.egg-info/top_level.txt

@@ -1,0 +1,92 @@
+{
+  "_id": {
+    "name": "_id",
+    "type": "str",
+    "parent_path": null,
+    "this_property_path": "_id"
+  },
+  "nme": {
+    "name": "nme",
+    "type": "str",
+    "parent_path": null,
+    "this_property_path": "nme"
+  },
+  "ignore": {
+    "name": "ignore",
+    "type": "bool",
+    "parent_path": null,
+    "this_property_path": "ignore"
+  },
+  "policy_ignore": {
+    "name": "policy_ignore",
+    "type": "bool",
+    "parent_path": null,
+    "this_property_path": "policy_ignore"
+  },
+  "rms": {
+    "name": "rms",
+    "type": "nested",
+    "parent_path": null,
+    "this_property_path": "rms"
+  },
+  "rms.bf": {
+    "name": "rms.bf",
+    "type": "bool",
+    "parent_path": "rms",
+    "this_property_path": "rms.bf"
+  },
+  "rms.ib": {
+    "name": "rms.ib",
+    "type": "bool",
+    "parent_path": "rms",
+    "this_property_path": "rms.ib"
+  },
+  "rms.rft": {
+    "name": "rms.rft",
+    "type": "bool",
+    "parent_path": "rms",
+    "this_property_path": "rms.rft"
+  },
+  "rms.pc": {
+    "name": "rms.rft",
+    "type": "bool",
+    "parent_path": "rms",
+    "this_property_path": "rms.pc"
+  },
+  "rms.api": {
+    "name": "rms.api",
+    "type": "str",
+    "parent_path": "rms",
+    "this_property_path": "rms.api"
+  },
+  "rms.tp": {
+    "name": "rms.tp",
+    "type": "float",
+    "parent_path": "rms",
+    "this_property_path": "rms.tp"
+  },
+  "ctr.rat": {
+    "name": "ctr.rat",
+    "type": "float",
+    "parent_path": "ctr",
+    "this_property_path": "ctr.rat"
+  },
+  "star": {
+    "name": "star",
+    "type": "int",
+    "parent_path": null,
+    "this_property_path": "star"
+  },
+  "score": {
+    "name": "score",
+    "type": "obj",
+    "parent_path": null,
+    "this_property_path": "score"
+  },
+  "score.score": {
+    "name": "score.score",
+    "type": "float",
+    "parent_path": "rms",
+    "this_property_path": "score.score"
+  }
+}

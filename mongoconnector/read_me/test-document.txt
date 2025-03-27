@@ -1,0 +1,395 @@
+{
+  "_id": 1,
+  "data": [
+    {
+      "cbn": {
+        "ec": [
+          {
+            "api": "ach",
+            "bge": [
+              [
+                {
+                  "chn": "15 Kg",
+                  "dty": "DEL",
+                  "hd": "7 Kg",
+                  "ogn": "BLR"
+                }
+              ]
+            ],
+            "bp": 4269,
+            "brd": "1147620",
+            "brd_nme": "Corp Connect Fare",
+            "cc": [
+              [
+                "M"
+              ]
+            ],
+            "cf": 5393,
+            "cfp": 2,
+            "cp": 3,
+            "cur": "INR",
+            "cvwdm_id": 10392,
+            "fbc": [
+              [
+                "RMIP"
+              ]
+            ],
+            "frt": {
+              "cbg": 1,
+              "crn": 1,
+              "mls": 2,
+              "rbk": 1,
+              "rfn": 2,
+              "st": 2,
+              "wf": 2
+            },
+            "fs": "SME",
+            "pcy": {
+              "cp": [
+              ],
+              "rp": [
+              ]
+            },
+            "pt": "ADT",
+            "ri": [
+              [
+                "RS1"
+              ]
+            ],
+            "sp": 5393,
+            "tid": [
+              "df160b09-509d-417e-8214-10b3715e5870"
+            ],
+            "trvl_cur": {
+              "sp": 5393,
+              "sym": "INR"
+            },
+            "iti_cur": {
+              "sp": 5393,
+              "sym": "INR"
+            },
+            "is_rbt_sd": 1,
+            "is_usr_sd": 0
+          },
+          {
+            "api": "ach",
+            "bge": [
+              [
+                {
+                  "chn": "15 Kg",
+                  "dty": "DEL",
+                  "hd": "7 Kg",
+                  "ogn": "BLR"
+                }
+              ]
+            ],
+            "bp": 4269,
+            "brd": "1147624",
+            "brd_nme": "Regular Fare",
+            "cc": [
+              [
+                "X"
+              ]
+            ],
+            "cf": 5393,
+            "cfp": 3,
+            "cp": 4,
+            "cur": "INR",
+            "cvwdm_id": 10380,
+            "fbc": [
+              [
+                "R0IP"
+              ]
+            ],
+            "frt": {
+              "cbg": 1,
+              "crn": 1,
+              "mls": 2,
+              "rbk": 1,
+              "rfn": 2,
+              "st": 2,
+              "wf": 2
+            },
+            "fs": "RETAIL",
+            "pcy": {
+              "cp": [
+              ],
+              "rp": [
+              ]
+            },
+            "pt": "ADT",
+            "ri": [
+              [
+                "RS1"
+              ]
+            ],
+            "sp": 5393,
+            "tid": [
+              "50645535-8c28-4944-b7b7-23a2925c5544"
+            ],
+            "trvl_cur": {
+              "sp": 5393,
+              "sym": "INR"
+            },
+            "iti_cur": {
+              "sp": 5393,
+              "sym": "INR"
+            },
+            "is_rbt_sd": 0,
+            "is_usr_sd": 0
+          },
+          {
+            "api": "ach",
+            "bge": [
+              [
+                {
+                  "chn": "15 Kg",
+                  "dty": "DEL",
+                  "hd": "7 Kg",
+                  "ogn": "BLR"
+                }
+              ]
+            ],
+            "bp": 4769,
+            "brd": "1147626",
+            "brd_nme": "Flexi fare",
+            "cc": [
+              [
+                "Y"
+              ]
+            ],
+            "cf": 5937,
+            "cfp": 3,
+            "cp": 4,
+            "cur": "INR",
+            "cvwdm_id": 10380,
+            "fbc": [
+              [
+                "RUIP"
+              ]
+            ],
+            "frt": {
+              "cbg": 1,
+              "crn": 1,
+              "mls": 2,
+              "rbk": 1,
+              "rfn": 2,
+              "st": 2,
+              "wf": 2
+            },
+            "fs": "RETAIL",
+            "pcy": {
+              "cp": [
+              ],
+              "rp": [
+              ]
+            },
+            "pt": "ADT",
+            "ri": [
+              [
+                "RS1"
+              ]
+            ],
+            "sp": 5937,
+            "tid": [
+              "50645535-8c28-4944-b7b7-23a2925c5544"
+            ],
+            "trvl_cur": {
+              "sp": 5937,
+              "sym": "INR"
+            },
+            "iti_cur": {
+              "sp": 5937,
+              "sym": "INR"
+            },
+            "is_rbt_sd": 0,
+            "is_usr_sd": 0
+          },
+          {
+            "api": "ach",
+            "bge": [
+              [
+                {
+                  "chn": "15 Kg",
+                  "dty": "DEL",
+                  "hd": "7 Kg",
+                  "ogn": "BLR"
+                }
+              ]
+            ],
+            "bp": 4269,
+            "brd": "1147624",
+            "brd_nme": "Regular Fare",
+            "cc": [
+              [
+                "X"
+              ]
+            ],
+            "cf": 5393,
+            "cfp": 3,
+            "cp": 4,
+            "cur": "INR",
+            "cvwdm_id": 10380,
+            "fbc": [
+              [
+                "R0IP"
+              ]
+            ],
+            "frt": {
+              "cbg": 1,
+              "crn": 1,
+              "mls": 2,
+              "rbk": 1,
+              "rfn": 2,
+              "st": 2,
+              "wf": 2
+            },
+            "fs": "RETAIL",
+            "pcy": {
+              "cp": [
+              ],
+              "rp": [
+              ]
+            },
+            "pt": "ADT",
+            "ri": [
+              [
+                "RS1"
+              ]
+            ],
+            "sp": 5393,
+            "tid": [
+              "09a57d5a-c516-49d5-9060-22ec260a4436"
+            ],
+            "trvl_cur": {
+              "sp": 5393,
+              "sym": "INR"
+            },
+            "iti_cur": {
+              "sp": 5393,
+              "sym": "INR"
+            },
+            "is_rbt_sd": 0,
+            "is_usr_sd": 0
+          },
+          {
+            "api": "ach",
+            "bge": [
+              [
+                {
+                  "chn": "15 Kg",
+                  "dty": "DEL",
+                  "hd": "7 Kg",
+                  "ogn": "BLR"
+                }
+              ]
+            ],
+            "bp": 4769,
+            "brd": "1147626",
+            "brd_nme": "Flexi fare",
+            "cc": [
+              [
+                "Y"
+              ]
+            ],
+            "cf": 5937,
+            "cfp": 3,
+            "cp": 4,
+            "cur": "INR",
+            "cvwdm_id": 10380,
+            "fbc": [
+              [
+                "RUIP"
+              ]
+            ],
+            "frt": {
+              "cbg": 1,
+              "crn": 1,
+              "mls": 2,
+              "rbk": 1,
+              "rfn": 2,
+              "st": 2,
+              "wf": 2
+            },
+            "fs": "RETAIL",
+            "pcy": {
+              "cp": [
+              ],
+              "rp": [
+              ]
+            },
+            "pt": "ADT",
+            "ri": [
+              [
+                "RS1"
+              ]
+            ],
+            "sp": 5937,
+            "tid": [
+              "09a57d5a-c516-49d5-9060-22ec260a4436"
+            ],
+            "trvl_cur": {
+              "sp": 5937,
+              "sym": "INR"
+            },
+            "iti_cur": {
+              "sp": 5937,
+              "sym": "INR"
+            },
+            "is_rbt_sd": 0,
+            "is_usr_sd": 0
+          }
+        ]
+      },
+      "fd": 1,
+      "leg": [
+        {
+          "fgt": [
+            {
+              "adt": "2022-11-08 19:45",
+              "aid": 94,
+              "ci": "6E",
+              "cid": "6E 5039",
+              "cn": "IndiGo",
+              "ddt": "2022-11-08 16:50",
+              "dn": 175,
+              "dty": "DEL",
+              "ogn": "BLR",
+              "via": [
+              ]
+            }
+          ],
+          "rfn": 0,
+          "sd": "2022-11-08",
+          "td": 175,
+          "ftr": {
+            "ddt_t": 1667926200,
+            "adt_t": 1667936700
+          },
+          "tag": {
+            "time": "Early Dep",
+            "cls": "Economy",
+            "hb": "",
+            "bge": ""
+          }
+        }
+      ],
+      "td": 175,
+      "tl": 1,
+      "mv_hash": "162fdd2c-054c-3e31-8924-60be343118de",
+      "cs_hash": "98ffb9e4-1fc0-3f4c-88b5-dee39e31e7e7",
+      "s_hash": "f8c605ea-021d-32b3-85f8-eab8013138e5",
+      "is_con_ven": 0,
+      "rbt_sd_cbn": "ec",
+      "ssp": 5393,
+      "uid": "33e23a815cd511ed899701b907752a79",
+      "is_cs_rmd": 0,
+      "maf": 0
+    }
+  ],
+  "destination": "DEL",
+  "from_date": "2022-11-08",
+  "origin": "BLR",
+  "return_date": null,
+  "type": 1
+}

@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: kafkaconnector
+Version: 0.0.1
+Summary: Kafka Connector 1
+Author: Laxman Bhukya
+Author-email: laxman.bhukya@itilite.com
+Dynamic: author
+Dynamic: author-email
+Dynamic: summary

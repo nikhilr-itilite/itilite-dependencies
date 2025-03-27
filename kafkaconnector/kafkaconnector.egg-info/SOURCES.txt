@@ -1,0 +1,7 @@
+setup.py
+kafkaconnector/__init__.py
+kafkaconnector/connector.py
+kafkaconnector.egg-info/PKG-INFO
+kafkaconnector.egg-info/SOURCES.txt
+kafkaconnector.egg-info/dependency_links.txt
+kafkaconnector.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+pymongo==4.7.2
+# /Users/badri/var/www/html/fast-api/lambda_layer/mongoconnector/dist/mongo_connector-0.0.1-py3-none-any.whl

@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: s3connector
+Version: 0.0.1
+Summary: S3 connector 1
+Author: Laxman Bhukya
+Author-email: laxman.bhukya@itilite.com
+Dynamic: author
+Dynamic: author-email
+Dynamic: summary
