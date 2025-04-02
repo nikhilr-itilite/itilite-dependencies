@@ -4,10 +4,11 @@ import traceback
 from threading import Thread
 import zlib
 import base64
-from confluent_kafka import Producer
+from confluent_kafka import Producer, Consumer
 from dotenv import load_dotenv
-
-load_dotenv()
+import asyncio
+from typing import Callable, Any
+load_dotenv('app/.env')
 
 _PRODUCER_CONFIGURATIONS = {
     "bootstrap.servers": os.environ["KAFKA_BOOTSTRAP_SERVERS"],
@@ -17,6 +18,19 @@ _PRODUCER_CONFIGURATIONS = {
     "sasl.password": os.environ["KAFKA_SASL_PASSWORD"],
     "message.max.bytes": 8388608,
     "compression.type": "lz4",
+}
+
+_CONSUMER_CONFIG = {
+    "bootstrap.servers": os.environ["KAFKA_BOOTSTRAP_SERVERS"],
+    "sasl.mechanisms": os.environ["KAFKA_SASL_MECHANISM"],
+    "security.protocol": os.environ["KAFKA_SECURITY_PROTOCOL"],
+    "sasl.username": os.environ["KAFKA_SASL_USERNAME"],            
+    "group.id": os.getenv("KAFKA_GROUP_ID", "hotel-packaging-group"),
+    "sasl.password": os.environ["KAFKA_SASL_PASSWORD"],
+    "message.max.bytes": 8388608,
+    "compression.type": "lz4",
+    "auto.offset.reset": "earliest", 
+    "enable.auto.commit": False
 }
 
 
@@ -146,5 +160,28 @@ class KafkaConnector:
             for thread in threads:
                 thread.join()
 
-    def consume(self):
-        pass
+    async def consume(self, topics: list[str], executor_dict: dict[str,Callable[[str], Any]]):
+        consumer = Consumer(_CONSUMER_CONFIG)
+        consumer.subscribe(topics)
+        try:
+            while True:
+                msg = consumer.poll(0.5)
+                if msg is None:
+                    print("No message to consume")
+                    await asyncio.sleep(0.01)
+                    continue
+                if msg.error():
+                    print(f"Kafka error: {msg.error()}")
+                    continue
+
+                topic = msg.topic()
+                if topic in executor_dict:
+                    await executor_dict[topic](msg.value().decode("utf-8"))
+                else:
+                    print(f"No handler for topic: {topic}")
+
+        except Exception as e:
+            print(f"Consumer error: {e}")
+        finally:
+            consumer.close()
+            print("Kafka consumer closed")
